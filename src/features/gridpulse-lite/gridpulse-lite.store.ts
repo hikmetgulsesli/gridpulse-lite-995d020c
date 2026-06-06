@@ -67,6 +67,9 @@ runtime.subscribe((runtimeState) => {
   notifyApp();
 });
 
+// Start the game loop so the runtime ticks
+runtime.start();
+
 // Expose for tests and external access
 (globalThis as any).app = {
   get state() {

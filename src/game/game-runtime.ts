@@ -140,6 +140,7 @@ export function gameRuntimeReducer(
       let gameOver: boolean = state.gameOver;
 
       // Collision: obstacle
+      const remainingObstacles: Obstacle[] = [];
       for (const o of obstacles) {
         if (
           o.lane === state.playerLane &&
@@ -151,8 +152,11 @@ export function gameRuntimeReducer(
           if (lives <= 0) {
             gameOver = true;
           }
+        } else {
+          remainingObstacles.push(o);
         }
       }
+      obstacles = remainingObstacles;
 
       // Collision: shard
       const remainingShards: Shard[] = [];
