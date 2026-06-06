@@ -108,7 +108,8 @@ export function gameRuntimeReducer(
 
       const nextTick = state.tick + 1;
       const speed = 2 + Math.floor(state.score / 500) * 0.5;
-      const advance = action.delta * 0.06 * speed;
+      const clampedDelta = Math.min(action.delta, 100);
+      const advance = clampedDelta * 0.06 * speed;
 
       let obstacles = state.obstacles
         .map((o) => ({ ...o, position: o.position + advance }))
@@ -235,6 +236,10 @@ export function createGameRuntime(
   function dispatch(action: GameRuntimeAction) {
     state = gameRuntimeReducer(state, action);
     notify();
+    if (state.started && !state.paused && !state.gameOver && handle === null) {
+      lastTime = 0;
+      handle = requestAnimationFrame(tick);
+    }
   }
 
   function tick(now: number) {
@@ -242,7 +247,11 @@ export function createGameRuntime(
     const delta = now - lastTime;
     lastTime = now;
     dispatch({ type: "TICK", delta });
-    handle = requestAnimationFrame(tick);
+    if (state.started && !state.paused && !state.gameOver) {
+      handle = requestAnimationFrame(tick);
+    } else {
+      handle = null;
+    }
   }
 
   function start() {
