@@ -1,0 +1,164 @@
+[
+  {
+    "screenId": "cee32f3e8a944e92b8be8c84439fd627",
+    "title": "Gameplay - GridPulse Lite",
+    "componentName": "GameplayGridpulseLite",
+    "file": "src/screens/GameplayGridpulseLite.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 8,
+    "actions": [
+      {
+        "id": "pause-1",
+        "kind": "button",
+        "label": "Pause",
+        "index": 0
+      },
+      {
+        "id": "settings-2",
+        "kind": "button",
+        "label": "Settings",
+        "index": 1
+      },
+      {
+        "id": "start-game-3",
+        "kind": "button",
+        "label": "START GAME",
+        "index": 2
+      },
+      {
+        "id": "play-1",
+        "kind": "link",
+        "label": "Play",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "rankings-2",
+        "kind": "link",
+        "label": "Rankings",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "upgrades-3",
+        "kind": "link",
+        "label": "Upgrades",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "profile-4",
+        "kind": "link",
+        "label": "Profile",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "play-5",
+        "kind": "link",
+        "label": "Play",
+        "href": "#",
+        "index": 4
+      },
+      {
+        "id": "rankings-6",
+        "kind": "link",
+        "label": "Rankings",
+        "href": "#",
+        "index": 5
+      },
+      {
+        "id": "upgrades-7",
+        "kind": "link",
+        "label": "Upgrades",
+        "href": "#",
+        "index": 6
+      },
+      {
+        "id": "profile-8",
+        "kind": "link",
+        "label": "Profile",
+        "href": "#",
+        "index": 7
+      }
+    ]
+  },
+  {
+    "screenId": "53788c062fb14e2097d1582d3cb095d0",
+    "title": "Game Settings - GridPulse Lite",
+    "componentName": "GameSettingsGridpulseLite",
+    "file": "src/screens/GameSettingsGridpulseLite.tsx",
+    "buttons": 4,
+    "inputs": 5,
+    "links": 6,
+    "actions": [
+      {
+        "id": "upgrade-to-pro-1",
+        "kind": "button",
+        "label": "UPGRADE TO PRO",
+        "index": 0
+      },
+      {
+        "id": "return-2",
+        "kind": "button",
+        "label": "RETURN",
+        "index": 1
+      },
+      {
+        "id": "cancel-3",
+        "kind": "button",
+        "label": "CANCEL",
+        "index": 2
+      },
+      {
+        "id": "save-preferences-4",
+        "kind": "button",
+        "label": "SAVE PREFERENCES",
+        "index": 3
+      },
+      {
+        "id": "game-mode-1",
+        "kind": "link",
+        "label": "Game Mode",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "settings-2",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "sound-3",
+        "kind": "link",
+        "label": "Sound",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "haptics-4",
+        "kind": "link",
+        "label": "Haptics",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "display-5",
+        "kind": "link",
+        "label": "Display",
+        "href": "#",
+        "index": 4
+      },
+      {
+        "id": "support-6",
+        "kind": "link",
+        "label": "Support",
+        "href": "#",
+        "index": 5
+      }
+    ]
+  }
+]
