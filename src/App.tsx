@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useMemo } from "react";
 import {
   GameplayGridpulseLite,
   GameplayGridpulseLiteActionId,
@@ -13,7 +13,7 @@ export default function App() {
   const { screen, runtime } = useAppState();
 
   const gameplayActions: Partial<Record<GameplayGridpulseLiteActionId, () => void>> =
-    useCallback(
+    useMemo(
       () => ({
         "start-game-3": () => {
           dispatchApp({ type: "RUNTIME", action: { type: "START" } });
@@ -42,10 +42,10 @@ export default function App() {
         "profile-8": () => {},
       }),
       [runtime.paused]
-    )();
+    );
 
   const settingsActions: Partial<Record<GameSettingsGridpulseLiteActionId, () => void>> =
-    useCallback(
+    useMemo(
       () => ({
         "return-2": () => {
           dispatchApp({ type: "NAVIGATE", screen: "gameplay" });
@@ -65,7 +65,7 @@ export default function App() {
         "support-6": () => {},
       }),
       []
-    )();
+    );
 
   return (
     <div
