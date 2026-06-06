@@ -1,0 +1,20 @@
+[
+  {
+    "screenId": "cee32f3e8a944e92b8be8c84439fd627",
+    "name": "Gameplay - GridPulse Lite",
+    "type": "game",
+    "description": "Gameplay - GridPulse Lite screen",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  },
+  {
+    "screenId": "53788c062fb14e2097d1582d3cb095d0",
+    "name": "Game Settings - GridPulse Lite",
+    "type": "settings",
+    "description": "Game Settings - GridPulse Lite screen",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  }
+]

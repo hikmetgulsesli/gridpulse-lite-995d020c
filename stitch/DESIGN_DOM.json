@@ -1,0 +1,917 @@
+{
+  "generatedAt": "2026-06-06T09:00:57.110Z",
+  "screenCount": 2,
+  "screens": {
+    "53788c062fb14e2097d1582d3cb095d0": {
+      "screenId": "53788c062fb14e2097d1582d3cb095d0",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "flex-col",
+          "classes": [
+            "hidden",
+            "md:flex",
+            "fixed",
+            "inset-y-0",
+            "left-0",
+            "z-[60]",
+            "flex-col",
+            "py-lg",
+            "bg-surface-container-highest/95",
+            "backdrop-blur-xl"
+          ],
+          "childCount": 3
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "relative",
+            "z-10",
+            "w-full",
+            "max-w-2xl",
+            "md:ml-72",
+            "flex",
+            "flex-col",
+            "gap-md"
+          ],
+          "childCount": 23
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "UPGRADE TO PRO",
+          "classes": [
+            "w-full",
+            "neon-button",
+            "py-sm",
+            "rounded-DEFAULT",
+            "text-primary-container",
+            "font-label-caps",
+            "text-label-caps",
+            "tracking-widest"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "RETURN",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-primary-fixed",
+            "transition-colors",
+            "flex",
+            "items-center",
+            "gap-xs"
+          ],
+          "icon": "close",
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "CANCEL",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "px-lg",
+            "py-sm",
+            "text-on-surface-variant",
+            "font-label-caps",
+            "text-label-caps",
+            "hover:text-primary-container",
+            "transition-colors",
+            "tracking-widest"
+          ],
+          "icon": null,
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "SAVE PREFERENCES",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "neon-button",
+            "px-lg",
+            "py-sm",
+            "rounded-DEFAULT",
+            "text-primary-container",
+            "font-headline-md",
+            "text-headline-md",
+            "bg-primary-container/5",
+            "tracking-wide"
+          ],
+          "icon": null,
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "SYSTEM MENU V2.0.4-LITE",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [
+        {
+          "kind": "input",
+          "type": "range",
+          "label": "range",
+          "placeholder": "",
+          "name": "",
+          "classes": [
+            "w-full"
+          ],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "type": "checkbox",
+          "label": "toggle",
+          "placeholder": "",
+          "name": "toggle",
+          "classes": [
+            "toggle-checkbox",
+            "absolute",
+            "block",
+            "w-5",
+            "h-5",
+            "rounded-full",
+            "bg-white",
+            "border-4",
+            "appearance-none",
+            "cursor-pointer",
+            "opacity-0",
+            "z-10"
+          ],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Game Mode",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "tune",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "tune",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Sound",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "volume_up",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Haptics",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "vibration",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Display",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "monitor",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Support",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps"
+          ],
+          "icon": "help",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "tune",
+        "volume_up",
+        "vibration",
+        "monitor",
+        "help",
+        "close",
+        "speed",
+        "keyboard"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "primary-container": "#00f3ff",
+        "on-primary-fixed-variant": "#004f53",
+        "on-primary": "#00373a",
+        "surface": "#121318",
+        "secondary-fixed": "#ffd7f0",
+        "primary": "#e3fdff",
+        "primary-fixed": "#6ff6ff",
+        "background": "#121318",
+        "on-background": "#e3e1e9",
+        "on-surface-variant": "#b9cacb",
+        "surface-container": "#1e1f25",
+        "error-container": "#93000a",
+        "tertiary": "#e8ffda",
+        "on-secondary": "#5e0053",
+        "surface-container-low": "#1a1b21",
+        "on-error": "#690005",
+        "secondary": "#fface8",
+        "error": "#ffb4ab",
+        "surface-variant": "#34343a",
+        "surface-container-lowest": "#0d0e13",
+        "on-tertiary-fixed-variant": "#095300",
+        "outline-variant": "#3a494b",
+        "on-tertiary": "#053900",
+        "on-secondary-fixed": "#3a0033",
+        "tertiary-container": "#36fd0f",
+        "surface-tint": "#00dce6",
+        "primary-fixed-dim": "#00dce6",
+        "surface-bright": "#38393f",
+        "on-primary-fixed": "#002022",
+        "secondary-fixed-dim": "#fface8",
+        "on-surface": "#e3e1e9",
+        "on-secondary-fixed-variant": "#840076",
+        "tertiary-fixed": "#79ff5b",
+        "tertiary-fixed-dim": "#2ae500",
+        "outline": "#849495",
+        "secondary-container": "#ff24e4",
+        "on-error-container": "#ffdad6",
+        "inverse-on-surface": "#2f3036",
+        "inverse-primary": "#00696f",
+        "inverse-surface": "#e3e1e9",
+        "on-primary-container": "#006b71",
+        "surface-container-high": "#292a2f",
+        "on-tertiary-fixed": "#022100",
+        "on-secondary-container": "#520049",
+        "surface-container-highest": "#34343a",
+        "surface-dim": "#121318",
+        "on-tertiary-container": "#107000"
+      },
+      "fonts": [
+        "Space Grotesk",
+        "JetBrains Mono",
+        "Hanken Grotesk",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Game Mode",
+          "icon": "tune",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": "tune",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Sound",
+          "icon": "volume_up",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Haptics",
+          "icon": "vibration",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Display",
+          "icon": "monitor",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Support",
+          "icon": "help",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "UPGRADE TO PRO",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "RETURN",
+          "icon": "close",
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "CANCEL",
+          "icon": null,
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "SAVE PREFERENCES",
+          "icon": null,
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "SYSTEM MENU V2.0.4-LITE",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "input",
+          "label": "range",
+          "type": "range",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "label": "toggle",
+          "type": "checkbox",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "SYSTEM MENU V2.0.4-LITE",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Game Mode",
+          "icon": "tune",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": "tune",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Sound",
+          "icon": "volume_up",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Haptics",
+          "icon": "vibration",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Display",
+          "icon": "monitor",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Support",
+          "icon": "help",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "UPGRADE TO PRO",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "CANCEL",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "SAVE PREFERENCES",
+          "icon": null,
+          "active": true
+        }
+      ],
+      "title": "Game Settings - GridPulse Lite"
+    },
+    "cee32f3e8a944e92b8be8c84439fd627": {
+      "screenId": "cee32f3e8a944e92b8be8c84439fd627",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "fixed",
+            "top-0",
+            "left-0",
+            "w-full",
+            "z-50",
+            "flex",
+            "justify-between",
+            "items-center",
+            "px-margin-desktop",
+            "py-xs"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "h-full",
+            "w-full",
+            "pt-[80px]",
+            "md:pt-[100px]",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "relative"
+          ],
+          "childCount": 19
+        },
+        {
+          "tag": "nav",
+          "layout": "flex-row",
+          "classes": [
+            "fixed",
+            "bottom-0",
+            "left-0",
+            "w-full",
+            "z-50",
+            "flex",
+            "justify-around",
+            "items-center",
+            "px-4",
+            "pb-4"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "pause",
+          "classes": [
+            "text-primary-container",
+            "hover:text-primary-fixed-dim",
+            "transition-colors",
+            "active:scale-95",
+            "duration-100"
+          ],
+          "icon": "pause",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#",
+          "expectedRoute": "#"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [
+            "text-primary-container",
+            "hover:text-primary-fixed-dim",
+            "transition-colors",
+            "active:scale-95",
+            "duration-100"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:/settings",
+          "expectedRoute": "/settings",
+          "routeInferred": true
+        },
+        {
+          "kind": "button",
+          "label": "START GAME",
+          "classes": [
+            "bg-transparent",
+            "border",
+            "border-primary-container",
+            "text-primary-container",
+            "px-lg",
+            "py-sm",
+            "rounded-DEFAULT",
+            "font-label-caps",
+            "text-label-caps",
+            "hover:bg-primary-container/10",
+            "hover:shadow-[0_0_20px_rgba(0,243,255,0.4)]",
+            "transition-all",
+            "active:scale-95",
+            "flex",
+            "items-center",
+            "gap-xs"
+          ],
+          "icon": "play_arrow",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "href": "#",
+          "classes": [
+            "font-headline-md",
+            "text-headline-md",
+            "text-primary-container",
+            "hover:text-primary-fixed-dim",
+            "transition-colors",
+            "active:scale-95",
+            "duration-100"
+          ],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Rankings",
+          "href": "#",
+          "classes": [
+            "font-headline-md",
+            "text-headline-md",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed-dim",
+            "transition-colors",
+            "active:scale-95",
+            "duration-100"
+          ],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Upgrades",
+          "href": "#",
+          "classes": [
+            "font-headline-md",
+            "text-headline-md",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed-dim",
+            "transition-colors",
+            "active:scale-95",
+            "duration-100"
+          ],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Profile",
+          "href": "#",
+          "classes": [
+            "font-headline-md",
+            "text-headline-md",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed-dim",
+            "transition-colors",
+            "active:scale-95",
+            "duration-100"
+          ],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Play",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "mt-1"
+          ],
+          "icon": "videogame_asset",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Rankings",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "mt-1"
+          ],
+          "icon": "leaderboard",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Upgrades",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "mt-1"
+          ],
+          "icon": "bolt",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Profile",
+          "href": "#",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "mt-1"
+          ],
+          "icon": "person",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "pause",
+        "settings",
+        "favorite",
+        "play_arrow",
+        "videogame_asset",
+        "leaderboard",
+        "bolt",
+        "person"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "primary-container": "#00f3ff",
+        "on-primary-fixed-variant": "#004f53",
+        "on-primary": "#00373a",
+        "surface": "#121318",
+        "secondary-fixed": "#ffd7f0",
+        "primary": "#e3fdff",
+        "primary-fixed": "#6ff6ff",
+        "background": "#121318",
+        "on-background": "#e3e1e9",
+        "on-surface-variant": "#b9cacb",
+        "surface-container": "#1e1f25",
+        "error-container": "#93000a",
+        "tertiary": "#e8ffda",
+        "on-secondary": "#5e0053",
+        "surface-container-low": "#1a1b21",
+        "on-error": "#690005",
+        "secondary": "#fface8",
+        "error": "#ffb4ab",
+        "surface-variant": "#34343a",
+        "surface-container-lowest": "#0d0e13",
+        "on-tertiary-fixed-variant": "#095300",
+        "outline-variant": "#3a494b",
+        "on-tertiary": "#053900",
+        "on-secondary-fixed": "#3a0033",
+        "tertiary-container": "#36fd0f",
+        "surface-tint": "#00dce6",
+        "primary-fixed-dim": "#00dce6",
+        "surface-bright": "#38393f",
+        "on-primary-fixed": "#002022",
+        "secondary-fixed-dim": "#fface8",
+        "on-surface": "#e3e1e9",
+        "on-secondary-fixed-variant": "#840076",
+        "tertiary-fixed": "#79ff5b",
+        "tertiary-fixed-dim": "#2ae500",
+        "outline": "#849495",
+        "secondary-container": "#ff24e4",
+        "on-error-container": "#ffdad6",
+        "inverse-on-surface": "#2f3036",
+        "inverse-primary": "#00696f",
+        "inverse-surface": "#e3e1e9",
+        "on-primary-container": "#006b71",
+        "surface-container-high": "#292a2f",
+        "on-tertiary-fixed": "#022100",
+        "on-secondary-container": "#520049",
+        "surface-container-highest": "#34343a",
+        "surface-dim": "#121318",
+        "on-tertiary-container": "#107000"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Space Grotesk",
+        "JetBrains Mono",
+        "Hanken Grotesk"
+      ],
+      "layoutHints": {
+        "gridCols": 8,
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": null,
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Rankings",
+          "icon": null,
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Upgrades",
+          "icon": null,
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Profile",
+          "icon": null,
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "videogame_asset",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Rankings",
+          "icon": "leaderboard",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Upgrades",
+          "icon": "bolt",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "Profile",
+          "icon": "person",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "pause",
+          "icon": "pause",
+          "action": "navigate",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "/settings",
+          "expectedBehavior": "navigate:/settings"
+        },
+        {
+          "kind": "button",
+          "label": "START GAME",
+          "icon": "play_arrow",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": null,
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Rankings",
+          "icon": null,
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Upgrades",
+          "icon": null,
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Profile",
+          "icon": null,
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Play",
+          "icon": "videogame_asset",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Rankings",
+          "icon": "leaderboard",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Upgrades",
+          "icon": "bolt",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "Profile",
+          "icon": "person",
+          "route": "#",
+          "active": true
+        }
+      ],
+      "title": "Gameplay - GridPulse Lite"
+    }
+  }
+}

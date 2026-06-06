@@ -1,0 +1,24 @@
+[
+  {
+    "screenId": "cee32f3e8a944e92b8be8c84439fd627",
+    "title": "Gameplay - GridPulse Lite",
+    "htmlFile": "cee32f3e8a944e92b8be8c84439fd627.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzE1M2I1MjcxYjA0YTQ0ZDA4MzY5YWJmZTgyZWNkYmQ4EgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM1MjUwNTI5MjY5NTA5NTY4OTg4&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/gridpulse-lite-995d020c/stitch/cee32f3e8a944e92b8be8c84439fd627.html",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  },
+  {
+    "screenId": "53788c062fb14e2097d1582d3cb095d0",
+    "title": "Game Settings - GridPulse Lite",
+    "htmlFile": "53788c062fb14e2097d1582d3cb095d0.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzJlZjdkYWVkMzc0MTQ1MzFhYWJlZjRjZmFlOTZkMDc3EgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM1MjUwNTI5MjY5NTA5NTY4OTg4&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/gridpulse-lite-995d020c/stitch/53788c062fb14e2097d1582d3cb095d0.html",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  }
+]
