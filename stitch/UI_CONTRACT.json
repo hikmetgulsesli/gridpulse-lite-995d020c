@@ -1,0 +1,333 @@
+[
+  {
+    "screenId": "cee32f3e8a944e92b8be8c84439fd627",
+    "screenTitle": "Gameplay - GridPulse Lite",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 189
+      },
+      {
+        "type": "link",
+        "label": "Rankings",
+        "href": "#",
+        "line": 190
+      },
+      {
+        "type": "link",
+        "label": "Upgrades",
+        "href": "#",
+        "line": 191
+      },
+      {
+        "type": "link",
+        "label": "Profile",
+        "href": "#",
+        "line": 192
+      },
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 264
+      },
+      {
+        "type": "link",
+        "label": "Rankings",
+        "href": "#",
+        "line": 268
+      },
+      {
+        "type": "link",
+        "label": "Upgrades",
+        "href": "#",
+        "line": 272
+      },
+      {
+        "type": "link",
+        "label": "Profile",
+        "href": "#",
+        "line": 276
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 195
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "START GAME",
+        "line": 253
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 189
+      },
+      {
+        "type": "link",
+        "label": "Rankings",
+        "href": "#",
+        "line": 190
+      },
+      {
+        "type": "link",
+        "label": "Upgrades",
+        "href": "#",
+        "line": 191
+      },
+      {
+        "type": "link",
+        "label": "Profile",
+        "href": "#",
+        "line": 192
+      },
+      {
+        "type": "link",
+        "label": "Play",
+        "href": "#",
+        "line": 264
+      },
+      {
+        "type": "link",
+        "label": "Rankings",
+        "href": "#",
+        "line": 268
+      },
+      {
+        "type": "link",
+        "label": "Upgrades",
+        "href": "#",
+        "line": 272
+      },
+      {
+        "type": "link",
+        "label": "Profile",
+        "href": "#",
+        "line": 276
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 195
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "START GAME",
+        "line": 253
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 11,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "53788c062fb14e2097d1582d3cb095d0",
+    "screenTitle": "Game Settings - GridPulse Lite",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Game Mode",
+        "href": "#",
+        "line": 195
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 200
+      },
+      {
+        "type": "link",
+        "label": "Sound",
+        "href": "#",
+        "line": 204
+      },
+      {
+        "type": "link",
+        "label": "Haptics",
+        "href": "#",
+        "line": 208
+      },
+      {
+        "type": "link",
+        "label": "Display",
+        "href": "#",
+        "line": 212
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 216
+      },
+      {
+        "type": "button",
+        "label": "UPGRADE TO PRO",
+        "line": 222
+      },
+      {
+        "type": "button",
+        "label": "RETURN",
+        "line": 232
+      },
+      {
+        "type": "button",
+        "label": "CANCEL",
+        "line": 324
+      },
+      {
+        "type": "button",
+        "label": "SAVE PREFERENCES",
+        "line": 327
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 251
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 258
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 278
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 286
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 294
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Game Mode",
+        "href": "#",
+        "line": 195
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 200
+      },
+      {
+        "type": "link",
+        "label": "Sound",
+        "href": "#",
+        "line": 204
+      },
+      {
+        "type": "link",
+        "label": "Haptics",
+        "href": "#",
+        "line": 208
+      },
+      {
+        "type": "link",
+        "label": "Display",
+        "href": "#",
+        "line": 212
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 216
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "UPGRADE TO PRO",
+        "line": 222
+      },
+      {
+        "type": "button",
+        "label": "RETURN",
+        "line": 232
+      },
+      {
+        "type": "button",
+        "label": "CANCEL",
+        "line": 324
+      },
+      {
+        "type": "button",
+        "label": "SAVE PREFERENCES",
+        "line": 327
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 251
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 258
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 278
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 286
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 294
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 15,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
